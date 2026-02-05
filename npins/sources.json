@@ -1,0 +1,21 @@
+{
+  "pins": {
+    "namu.nvim": {
+      "type": "GitRelease",
+      "repository": {
+        "type": "GitHub",
+        "owner": "bassamsdata",
+        "repo": "namu.nvim"
+      },
+      "pre_releases": false,
+      "version_upper_bound": null,
+      "release_prefix": null,
+      "submodules": false,
+      "version": "v0.6.0",
+      "revision": "f50c755c229ee44bd8580d37e0d95f586776b27e",
+      "url": "https://api.github.com/repos/bassamsdata/namu.nvim/tarball/refs/tags/v0.6.0",
+      "hash": "sha256-ywKb/VVNSa/LtiQaSO2lqff2ujupIcc9P9AJg/p6mKw="
+    }
+  },
+  "version": 7
+}
