@@ -2,15 +2,11 @@
   self,
   inputs,
   lib,
-  pkgs,
   config,
   ...
-}:
-inputs.nvf.lib.neovimConfiguration {
+}: {
   # Main nvf configuration entry point
   # This file imports all nvim-related modules and sets up nvf
-
-  inherit pkgs;
 
   imports = [
     ./options.nix
