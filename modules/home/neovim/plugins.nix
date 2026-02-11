@@ -16,6 +16,13 @@ in {
       mappings.findFiles = "<leader><leader>";
     };
 
+    autocomplete = {
+      blink-cmp = {
+        enable = true;
+        setupOpts.cmdline.keymaps.preset = "default";
+      };
+    };
+
     git = {
       gitsigns.enable = true;
     };
