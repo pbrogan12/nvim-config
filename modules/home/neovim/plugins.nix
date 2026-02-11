@@ -16,6 +16,10 @@ in {
       mappings.findFiles = "<leader><leader>";
     };
 
+    git = {
+      gitsigns.enable = true;
+    };
+
     extraPlugins = with pkgs.vimPlugins; {
       # Navigation
       namu = {
