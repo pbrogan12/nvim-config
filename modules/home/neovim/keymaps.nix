@@ -65,7 +65,7 @@
       key = "<leader>j";
       mode = "n";
       silent = true;
-      action = "<cmd>lua _jjui_toggle()<CR>";
+      action = "<cmd>lua Snacks.terminal.toggle('jjui')<CR>";
     }
     {
       key = "<leader>/";
@@ -87,15 +87,9 @@
     }
     {
       key = "<D-f>";
-      mode = "n";
+      mode = ["n" "t"];
       silent = true;
-      action = "<cmd>ToggleTerm direction=float<CR>";
-    }
-    {
-      key = "<D-f>";
-      mode = "t";
-      silent = true;
-      action = "<C-\\><C-n><cmd>ToggleTerm direction=float<CR>";
+      action = "<cmd>lua Snacks.terminal.toggle()<CR>";
     }
   ];
 }
