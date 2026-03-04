@@ -15,6 +15,7 @@ _: {
     python = {
       enable = true;
       lsp.servers = ["ruff" "ty"];
+      format.type = ["ruff" "ruff-check"];
     };
     go.enable = true;
     lua.enable = true;
