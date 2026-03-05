@@ -14,8 +14,8 @@ _: {
     # Languages based on your installed packages
     python = {
       enable = true;
-      lsp.servers = ["ruff" "ty"];
-      format.type = ["ruff" "ruff-check"];
+      lsp.servers = ["ty"];
+      format.type = ["ruff"];
     };
     go.enable = true;
     lua.enable = true;
