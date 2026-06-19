@@ -17,9 +17,8 @@ in {
     };
 
     autocomplete = {
-      blink-cmp = {
+      nvim-cmp = {
         enable = true;
-        setupOpts.cmdline.keymaps.preset = "default";
       };
     };
 
