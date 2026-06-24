@@ -1,5 +1,18 @@
 {
   "pins": {
+    "diffview-plus.nvim": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "dlyongemallo",
+        "repo": "diffview-plus.nvim"
+      },
+      "branch": "main",
+      "submodules": false,
+      "revision": "d5c09986681a671613aef0226ef409c01561d64c",
+      "url": "https://github.com/dlyongemallo/diffview-plus.nvim/archive/d5c09986681a671613aef0226ef409c01561d64c.tar.gz",
+      "hash": "sha256-M3fJ9qZuU/c7EnQeABp09Kznj5soPZwAGRhPaTxZfag="
+    },
     "namu.nvim": {
       "type": "GitRelease",
       "repository": {
@@ -17,5 +30,5 @@
       "hash": "sha256-ywKb/VVNSa/LtiQaSO2lqff2ujupIcc9P9AJg/p6mKw="
     }
   },
-  "version": 7
+  "version": 8
 }

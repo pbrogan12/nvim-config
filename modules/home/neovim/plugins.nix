@@ -9,6 +9,11 @@
     version = sources."namu.nvim".version;
     src = sources."namu.nvim".outPath;
   };
+  diffview-plus-nvim = pkgs.vimUtils.buildVimPlugin {
+    pname = "diffview-plus.nvim";
+    version = sources."diffview-plus.nvim".revision;
+    src = sources."diffview-plus.nvim".outPath;
+  };
 in {
   vim = {
     telescope = {
@@ -31,6 +36,10 @@ in {
       namu = {
         package = namu-nvim;
         setup = "require('namu').setup({})";
+      };
+      diffview-plus = {
+        package = diffview-plus-nvim;
+        setup = "require('diffview').setup({ preferred_adapter = 'jj' })";
       };
       # Utils
       glance = {
